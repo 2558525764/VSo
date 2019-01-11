@@ -1,0 +1,17 @@
+D:\webSite\45MVC\WebApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\webSite\45MVC\WebApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\webSite\45MVC\WebApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\webSite\45MVC\WebApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+D:\webSite\45MVC\WebApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\webSite\45MVC\WebApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+D:\VS作业\MVC\WebApplication1\WebApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\VS作业\MVC\WebApplication1\WebApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\VS作业\MVC\WebApplication1\WebApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\VS作业\MVC\WebApplication1\WebApplication1\ConsoleApplication1\bin\Debug\EntityFramework.dll
+D:\VS作业\MVC\WebApplication1\WebApplication1\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.dll
+D:\VS作业\MVC\WebApplication1\WebApplication1\ConsoleApplication1\bin\Debug\EntityFramework.xml
+D:\VS作业\MVC\WebApplication1\WebApplication1\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.xml
+D:\VS作业\MVC\WebApplication1\WebApplication1\ConsoleApplication1\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\VS作业\MVC\WebApplication1\WebApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+D:\VS作业\MVC\WebApplication1\WebApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\VS作业\MVC\WebApplication1\WebApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
