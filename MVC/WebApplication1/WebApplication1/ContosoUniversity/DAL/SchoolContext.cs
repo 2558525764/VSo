@@ -1,14 +1,22 @@
 ﻿using ContosoUniversity.Models;
+using System;
+using System.Collections.Generic;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
+using System.Linq;
+using System.Web;
 
 namespace ContosoUniversity.DAL
 {
+    /// <summary>
+    /// 上下文类
+    /// </summary>
     public class SchoolContext : DbContext
     {
-        //
+
         public SchoolContext() : base("SchoolContext")
         {
+            //连接字符串 （它稍后将添加到 Web.config 文件） 的名称被传递给构造函数。
         }
 
         public DbSet<Student> Students { get; set; }

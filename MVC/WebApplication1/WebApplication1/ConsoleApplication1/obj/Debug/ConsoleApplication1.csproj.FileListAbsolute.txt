@@ -15,3 +15,14 @@ D:\VS作业\MVC\WebApplication1\WebApplication1\ConsoleApplication1\bin\Debug\zh
 D:\VS作业\MVC\WebApplication1\WebApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
 D:\VS作业\MVC\WebApplication1\WebApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
 D:\VS作业\MVC\WebApplication1\WebApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+D:\项目\VSo\MVC\WebApplication1\WebApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\项目\VSo\MVC\WebApplication1\WebApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\项目\VSo\MVC\WebApplication1\WebApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\项目\VSo\MVC\WebApplication1\WebApplication1\ConsoleApplication1\bin\Debug\EntityFramework.dll
+D:\项目\VSo\MVC\WebApplication1\WebApplication1\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.dll
+D:\项目\VSo\MVC\WebApplication1\WebApplication1\ConsoleApplication1\bin\Debug\EntityFramework.xml
+D:\项目\VSo\MVC\WebApplication1\WebApplication1\ConsoleApplication1\bin\Debug\EntityFramework.SqlServer.xml
+D:\项目\VSo\MVC\WebApplication1\WebApplication1\ConsoleApplication1\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\项目\VSo\MVC\WebApplication1\WebApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\项目\VSo\MVC\WebApplication1\WebApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+D:\项目\VSo\MVC\WebApplication1\WebApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache

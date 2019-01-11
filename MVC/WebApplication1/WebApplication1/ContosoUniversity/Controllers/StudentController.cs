@@ -17,33 +17,31 @@ namespace ContosoUniversity.Controllers
         private SchoolContext db = new SchoolContext();
 
         // GET: Student
-        public ViewResult Index(string sortOrder, string currentFilter, string searchString, int? page)
+        public ViewResult Index(string sortOrder,string currentFilter,string searchString, int? page)
         {
-            //分页
             ViewBag.CurrentSort = sortOrder;
-            //接受排序参数
-            ViewBag.NameSortParm = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
+            //sortOrder接受排序参数，根据sortOrder值改变下一次排序的参数值
+            ViewBag.NameSortParm = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "n0";
             ViewBag.DateSortParm = sortOrder == "Date" ? "date_desc" : "Date";
-
             if (searchString != null)
             {
                 page = 1;
             }
             else
-            {
+             {
                 searchString = currentFilter;
             }
 
-            ViewBag.CurrentFilter = searchString;
-            //根据排序参数将数据集返回视图
+            //ViewBag.CurrentFilter = searchString;
+            //整体查询
             var students = from s in db.Students
                            select s;
+            //搜索的实现   searchString为用户输入的值
             if (!String.IsNullOrEmpty(searchString))
             {
                 students = students.Where(s => s.Name.Contains(searchString));
-                                      
             }
-            //把结果数据集到数据集返回视图
+            //根据排序参数sortOrder进一步完善查询
             switch (sortOrder)
             {
                 case "name_desc":
@@ -62,7 +60,7 @@ namespace ContosoUniversity.Controllers
             int pageSize = 3;
             int pageNumber = (page ?? 1);
             return View(students.ToPagedList(pageNumber, pageSize));
-
+            //return View(students.ToList());
         }
 
         // GET: Student/Details/5
@@ -90,7 +88,9 @@ namespace ContosoUniversity.Controllers
         // 为了防止“过多发布”攻击，请启用要绑定到的特定属性，有关 
         // 详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkId=317598。
         [HttpPost]
+        //安全策略
         [ValidateAntiForgeryToken]
+        //Bind安全策略 防止输入 不可以输入的字段
         public ActionResult Create([Bind(Include = "ID,Name,EnrollmentDate")] Student student)
         {
             if (ModelState.IsValid)
